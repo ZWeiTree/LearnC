@@ -1,0 +1,61 @@
+body{
+    background-image: url(../Image/KurtCobain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div.GlassBox{
+    margin: 30px auto auto;
+    position: relative;
+    width: 1100px;
+    height: 400px;
+
+    align-items: center;
+    align-content: center;
+
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+    border-radius: 50px;
+    backdrop-filter: blur(6px);
+    line-height: 2;
+}
+
+.Nihil{
+    height: 300px;
+    margin-left: 20px;
+}
+
+
+
+.menubar{
+    list-style-type:none;
+    margin-top:110px;
+    margin-left: 30px;
+    padding:0;
+    width: 100px;
+    border-style: solid;
+    position: fixed;
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+}
+.menubar li a{
+    text-decoration: none;
+    color:black;
+    padding: 8px 0;
+    display: block;
+    text-align: center;
+}
+.menubar li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 700px;
+    margin-top: .5rem;
+    overflow: auto;
+}
